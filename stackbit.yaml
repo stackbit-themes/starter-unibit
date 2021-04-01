@@ -23,24 +23,6 @@ stackbit_banner:
   name: Starter
   create_url: 'https://app.stackbit.com/create?theme=starter'
   github_url: 'https://github.com/stackbit-themes/starter-unibit'
-pageData:
-  - pagePath: "/"
-    initialExpandedPaths:
-      - "[0]"
-      - "[0].fields.title"
-      - "[0].fields.sections"
-      - "[0].fields.sections.items[0]"
-      - "[0].fields.sections.items[0].fields.title"
-      - "[0].fields.sections.items[0].fields.content"
-      - "[0].fields.sections.items[1]"
-      - "[0].fields.sections.items[1].fields.title"
-      - "[0].fields.sections.items[1].fields.subtitle"
-      - "[0].fields.sections.items[1].fields.features"
-      - "[0].fields.sections.items[0].fields.actions"
-      - "[0].fields.sections.items[0].fields.actions.items[0]"
-      - "[0].fields.sections.items[0].fields.actions.items[0].fields.label"
-      - "[1]"
-      - "[1].fields.palette"
 models:
   config:
     type: config
@@ -574,6 +556,7 @@ models:
             - noimageindex
             - notranslate
             - none
+        default: [all]
       - type: list
         name: extra
         label: Extra

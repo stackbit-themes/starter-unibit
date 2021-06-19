@@ -22,7 +22,7 @@ stackbit_banner:
   show_banner: true
   name: Starter
   create_url: 'https://app.stackbit.com/create?theme=starter'
-  github_url: 'https://github.com/stackbit-themes/starter-unibit'
+  github_url: 'https://github.com/stackbit/stackbit-theme-starter'
 models:
   config:
     type: config

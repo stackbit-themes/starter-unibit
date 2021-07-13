@@ -22,8 +22,8 @@
       {% set posts_all = getPages("/blog") %}
       {% set posts_sorted = posts_all | sort(true, true, "date") %}
 
-      {% set show_recent = section.show_recent %}
-      {% set recent_count = section.recent_count %}
+			{% set show_recent = section.show_recent | default(false, true) %}
+			{% set recent_count = section.recent_count | default(0, true) %}
       {% set post_count = 0 %}
 
       {% for post in posts_sorted %}
